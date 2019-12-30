@@ -1,2 +1,12 @@
-while (flag ==true)		 /*你好*/
-                do a := 2* -1.5e-10;
+program test;
+var a:integer;b, c:real; k : 
+bool;
+begin
+a := int 2;
+i:=3.0+ int 3;
+b := i;
+if (a > b) then a := a + i;
+while (a <> b) do i := b*i;
+k := false;
+if k then a := a + int 1;
+end
