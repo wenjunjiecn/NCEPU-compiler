@@ -64,7 +64,7 @@ def createFirst():  # first集算法第二步和第三步
             if right[pointer] in first.keys():
                 first[left] = first[left] | (first[right[pointer]] - {'ε'})
             else:
-                first[left]=first[left]|{right[pointer]}
+                first[left] = first[left] | {right[pointer]}
                 break
             if pointer == length - 1 and 'ε' in first[right[pointer]]:
                 first[left].add('ε')
@@ -116,7 +116,6 @@ def createFollow():
             if right[pointer] in first.keys():
                 if pointer != length - 1:
                     follow[right[pointer]] = follow[right[pointer]] | (multiFirst(right[pointer + 1:]) - {'ε'})
-
 
     for i in sentence:  # 算法第三步
         left = i.split('->')[0]
@@ -190,10 +189,11 @@ def saveFollow():
     file = open(path, 'wb')
     pickle.dump(follow, file)
 
+
 def rec():
-    for i,j in first.items():
+    for i, j in first.items():
         if 'ε' in j:
-            print( i,'is',first[i] &follow[i])
+            print(i, 'is', first[i] & follow[i])
 
 
 if __name__ == '__main__':
@@ -202,7 +202,6 @@ if __name__ == '__main__':
     # print(sentence)
     cycleFirst()  # 构建first集
     cycleFollow()
-
 
     createM()  # 构造预测分析表
     print2file()  # 打印first集和follow集

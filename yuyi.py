@@ -8,7 +8,7 @@ P = {
     '#': {'+': '<', '*': '<', '↑': '<', 'i': '<', '(': '<', ')': '', '#': '='},
 }  # 算符优先分析表
 
-instr = ['#', ')', 'i', '*', 'i', '(', '+', 'i', '↑', 'i']  # 输入字符串
+instr = ['#', 'i','↑',')','i','+','i','(','*','i','+','i']  # 输入字符串
 analysis = []  # 分析栈
 
 
@@ -115,7 +115,7 @@ def classify(tmpn, fac):  # 分类翻译
         gen('↑', tree[fac[0]].place, tree[fac[2]].place, tree[tmpn].place)
     elif fac[0] == '(' and fac[2] == ')':
         tree[tmpn] = treenode()
-        tree[tmpn].addplace(tree[fac[1].place])
+        tree[tmpn].addplace(tree[fac[1]].place)
 
 
 if __name__ == '__main__':

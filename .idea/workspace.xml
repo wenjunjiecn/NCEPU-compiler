@@ -2,19 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dd1683b-de66-40f3-803f-bec8aab2b179" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FirandLas.py" beforeDir="false" afterPath="$PROJECT_DIR$/FirandLas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/M.txt" beforeDir="false" afterPath="$PROJECT_DIR$/M.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first.txt" beforeDir="false" afterPath="$PROJECT_DIR$/first.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/follow.txt" beforeDir="false" afterPath="$PROJECT_DIR$/follow.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/four.txt" beforeDir="false" afterPath="$PROJECT_DIR$/four.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/program.txt" beforeDir="false" afterPath="$PROJECT_DIR$/program.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sentence.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sentence.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tmp.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wenfa.py" beforeDir="false" afterPath="$PROJECT_DIR$/wenfa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wf.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wf.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/word.py" beforeDir="false" afterPath="$PROJECT_DIR$/word.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yuyi.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuyi.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -197,7 +199,7 @@
       <updated>1577421633860</updated>
       <workItem from="1577421635109" duration="353000" />
       <workItem from="1577425574194" duration="70161000" />
-      <workItem from="1577672677632" duration="12610000" />
+      <workItem from="1577672677632" duration="20955000" />
     </task>
     <servers />
   </component>
@@ -218,10 +220,10 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/compile$wenfa.coverage" NAME="wenfa Coverage Results" MODIFIED="1577672892706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/compile$word.coverage" NAME="word Coverage Results" MODIFIED="1577672772112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/compile$yuyi.coverage" NAME="yuyi Coverage Results" MODIFIED="1577691431790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/compile$wenfa.coverage" NAME="wenfa Coverage Results" MODIFIED="1577721949826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/compile$word.coverage" NAME="word Coverage Results" MODIFIED="1577721939380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/compile$yuyi.coverage" NAME="yuyi Coverage Results" MODIFIED="1577721995755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/compile$test.coverage" NAME="test Coverage Results" MODIFIED="1577434670981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/compile$FirandLas.coverage" NAME="FirandLas Coverage Results" MODIFIED="1577672881020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/compile$FirandLas.coverage" NAME="FirandLas Coverage Results" MODIFIED="1577721943802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

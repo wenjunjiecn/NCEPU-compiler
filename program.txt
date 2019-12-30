@@ -1,12 +1,12 @@
 program test;
-var a:integer;b, c:real; k : 
-bool;
+const a = integer 5;b= 6.5;
 begin
-a := int 2;
-i:=3.0+ int 3;
+a := integer 2;
+i:=a*3.14;
 b := i;
-if (a > b) then a := a + i;
+if a then a := a + i;
 while (a <> b) do i := b*i;
 k := false;
 if k then a := a + int 1;
+for q:= integer 5 to integer 10 do a:= q;
 end
