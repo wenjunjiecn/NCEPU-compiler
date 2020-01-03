@@ -206,11 +206,8 @@ if __name__ == '__main__':
     createM()  # 构造预测分析表
     print2file()  # 打印first集和follow集
     saveM()  # 序列化保存预测分析表对象
+    print(M)
     saveFirst()
     saveFollow()
-    # print(M['表达式'])
-    # print(sentence)
-    # print(multiFirst(['表达式']))
     rec()
-    # print(first['算术表达式'])
-    # print(first['布尔表达式'])
+

@@ -1,1 +1,1 @@
-program test; const a = integer 5;b= 6.5; begin a := integer 2; i:=a*3.14; b := i; if a then a := a + i; while (a <> b) do i := b*i; k := false; if k then a := a + int 1; for q:= integer 5 to integer 10 do a:= q; end
+program test5; var a:integer;b, c:real; k : bool; begin a := integer 2; i:=a*3.14; b := i; if a then a:=a+i; while(a <> b)do i:=b*i; k := false; if k then a := a + integer 1; for q:= integer 5 to integer 10 do a:= q; repeat a :=a-integer 1 until (a<=integer 0); end

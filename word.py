@@ -65,7 +65,7 @@ def init():  # 预处理
         output.close()
 
 
-def addtofile(w):
+def addtofile(w):    #输出到文件
     try:
         file = open('output.txt', 'a')
         if w in words.keys():
@@ -91,7 +91,7 @@ def addtofile(w):
         file.close()
 
 
-def RecogId():
+def RecogId():    #识别单词类型
     try:
         file = open('tmp.txt', 'r')
         text = file.readline()
