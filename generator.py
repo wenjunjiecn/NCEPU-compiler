@@ -13,8 +13,8 @@ startSign = '程序'
 
 def init():
     try:
-        file = open('wf.txt', 'r', encoding='utf-8')
-        sentence = open('sentence.txt', 'w', encoding='utf-8')
+        file = open('generatedFiles/wf.txt', 'r', encoding='utf-8')
+        sentence = open('generatedFiles/sentence.txt', 'w', encoding='utf-8')
         while True:
             text_line = file.readline()
             text_line = text_line.strip()
@@ -31,7 +31,7 @@ def init():
 
 def readSentence():  # 读取txt中的句子，并初始化first集和follow集的算法第一步
     try:
-        file = open('sentence.txt', 'r', encoding='utf8')
+        file = open('generatedFiles/sentence.txt', 'r', encoding='utf8')
         while True:
             text_line = file.readline()
             text_line = text_line.strip()
@@ -74,7 +74,7 @@ def createFirst():  # first集算法第二步和第三步
                 break
 
 
-def cycleFirst():  # 循环first算法，直到没有新元素被加入
+def loopFirst():  # 循环first算法，直到没有新元素被加入
     createFirst()
     prefirst = copy.deepcopy(first)
 
@@ -132,7 +132,7 @@ def createFollow():
     # print('follow:',follow)
 
 
-def cycleFollow():  # 循环follow集算法，直到没有新的元素被加入
+def loopFollow():  # 循环follow集算法，直到没有新的元素被加入
     createFollow()
     prefollow = copy.deepcopy(follow)
 
@@ -163,7 +163,7 @@ def createM():
                     M[left][b] = right
 
 
-def print2file():
+def printFirstAndFollow():
     print('FIRST集如下')
     for i in first.keys():
         print('FIRST[{A}]={B}'.format(A=i, B=first[i]))
@@ -173,19 +173,19 @@ def print2file():
 
 
 def saveM():
-    path = 'M.txt'
+    path = 'generatedFiles/M.nonread'
     file = open(path, 'wb')
     pickle.dump(M, file)
 
 
 def saveFirst():
-    path = 'first.txt'
+    path = 'generatedFiles/first.nonread'
     file = open(path, 'wb')
     pickle.dump(first, file)
 
 
 def saveFollow():
-    path = 'follow.txt'
+    path = 'generatedFiles/follow.nonread'
     file = open(path, 'wb')
     pickle.dump(follow, file)
 
@@ -200,14 +200,14 @@ if __name__ == '__main__':
     init()
     readSentence()
     # print(sentence)
-    cycleFirst()  # 构建first集
-    cycleFollow()
+    loopFirst()  # 构建first集
+    loopFollow() #构建follow集
 
     createM()  # 构造预测分析表
-    print2file()  # 打印first集和follow集
+    printFirstAndFollow()  # 打印first集和follow集
     saveM()  # 序列化保存预测分析表对象
-    print(M)
-    saveFirst()
-    saveFollow()
+    print(M)  # 打印预测分析表
+    saveFirst() # 序列化保存First集
+    saveFollow() # 序列化保存Follow集
     rec()
 

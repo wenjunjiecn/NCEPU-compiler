@@ -2,17 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dd1683b-de66-40f3-803f-bec8aab2b179" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/generatedFiles/M.nonread" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatedFiles/first.nonread" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatedFiles/follow.nonread" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compile.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compile.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FirandLas.py" beforeDir="false" afterPath="$PROJECT_DIR$/FirandLas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/M.txt" beforeDir="false" afterPath="$PROJECT_DIR$/M.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first.txt" beforeDir="false" afterPath="$PROJECT_DIR$/first.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/follow.txt" beforeDir="false" afterPath="$PROJECT_DIR$/follow.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/program.txt" beforeDir="false" afterPath="$PROJECT_DIR$/program.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tmp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/word.py" beforeDir="false" afterPath="$PROJECT_DIR$/word.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirandLas.py" beforeDir="false" afterPath="$PROJECT_DIR$/generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/follow.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/four.txt" beforeDir="false" afterPath="$PROJECT_DIR$/generatedFiles/fourElementMiddleState.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/generatedFiles/tokens.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program.txt" beforeDir="false" afterPath="$PROJECT_DIR$/generatedFiles/program.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentence.txt" beforeDir="false" afterPath="$PROJECT_DIR$/generatedFiles/sentence.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/generatedFiles/middleState.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wenfa.py" beforeDir="false" afterPath="$PROJECT_DIR$/SyntacticAnalyzer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wf.txt" beforeDir="false" afterPath="$PROJECT_DIR$/generatedFiles/wf.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/word.py" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yuyi.py" beforeDir="false" afterPath="$PROJECT_DIR$/SemanticAnalyzer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/测试程序1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/generatedFiles/一些测试程序.txt" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,28 +55,29 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="1VYETCdtugbkhMmCDdGK9xFrclJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\StudentSystemCW\NCEPU-compiler\generatedFiles" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.FirandLas">
-    <configuration name="FirandLas" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.SemanticAnalyzer (1)">
+    <configuration name="LexicalAnalyzer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="compile" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,7 +90,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FirandLas.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LexicalAnalyzer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,7 +99,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="SemanticAnalyzer (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="compile" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,7 +112,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SemanticAnalyzer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,7 +121,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="wenfa" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="SemanticAnalyzer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="compile" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,7 +134,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wenfa.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SemanticAnalyzer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +143,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="word" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="SemanticAnalyzer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="compile" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,7 +156,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/word.py" />
+      <option name="SCRIPT_NAME" value="D:\StudentSystemCW\NCEPU-compiler\SemanticAnalyzer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="generator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="compile" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,7 +200,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yuyi.py" />
+      <option name="SCRIPT_NAME" value="D:\StudentSystemCW\NCEPU-compiler\SemanticAnalyzer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,14 +211,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.FirandLas" />
-        <item itemvalue="Python.wenfa" />
-        <item itemvalue="Python.yuyi" />
-        <item itemvalue="Python.word" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.SemanticAnalyzer (1)" />
+        <item itemvalue="Python.LexicalAnalyzer" />
+        <item itemvalue="Python.generator" />
+        <item itemvalue="Python.SemanticAnalyzer" />
+        <item itemvalue="Python.SemanticAnalyzer" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -196,30 +234,37 @@
       <workItem from="1577425574194" duration="70161000" />
       <workItem from="1577672677632" duration="21064000" />
       <workItem from="1577754756355" duration="15131000" />
+      <workItem from="1653660774866" duration="4655000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/compile$wenfa.coverage" NAME="wenfa Coverage Results" MODIFIED="1577972504907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/compile$word.coverage" NAME="word Coverage Results" MODIFIED="1577966790372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/compile$yuyi.coverage" NAME="yuyi Coverage Results" MODIFIED="1577970353555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NCEPU_compiler$yuyi__1_.coverage" NAME="yuyi (1) Coverage Results" MODIFIED="1653662018078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NCEPU_compiler$generator.coverage" NAME="generator Coverage Results" MODIFIED="1653663069520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/compile$test.coverage" NAME="test Coverage Results" MODIFIED="1577434670981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NCEPU_compiler$SemanticAnalyzer.coverage" NAME="SemanticAnalyzer Coverage Results" MODIFIED="1653661857891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NCEPU_compiler$SemanticAnalyzer__1_.coverage" NAME="SemanticAnalyzer (1) Coverage Results" MODIFIED="1653663214218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NCEPU_compiler$wenfa.coverage" NAME="wenfa Coverage Results" MODIFIED="1653661853422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/compile$wenfa.coverage" NAME="wenfa Coverage Results" MODIFIED="1577972504907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NCEPU_compiler$LexicalAnalyzer.coverage" NAME="LexicalAnalyzer Coverage Results" MODIFIED="1653663210532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/compile$FirandLas.coverage" NAME="FirandLas Coverage Results" MODIFIED="1577972628863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/compile$yuyi.coverage" NAME="yuyi Coverage Results" MODIFIED="1577970353555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NCEPU_compiler$FirandLas.coverage" NAME="FirandLas Coverage Results" MODIFIED="1653661297109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/compile$word.coverage" NAME="word Coverage Results" MODIFIED="1577966790372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -8,7 +8,7 @@ P = {
     '#': {'+': '<', '*': '<', '↑': '<', 'i': '<', '(': '<', ')': '', '#': '='},
 }  # 算符优先分析表
 
-instr = ['#', 'i','↑',')','i','+','i','(','*','i','+','i']  # 输入字符串
+instr = ['#', 'i', '↑', ')', 'i', '+', 'i', '(', '*', 'i', '+', 'i']  # 输入字符串
 analysis = []  # 分析栈
 
 
@@ -83,7 +83,7 @@ def newtemp():  # 新建一个临时变量
 def gen(op, arg1, arg2, result):  # 把四元式写入文件
     tmp = '({op},{arg1},{arg2},{result})\r'.format(op=op, arg1=arg1, arg2=arg2, result=result)
     try:
-        file = open('four.txt', 'a')
+        file = open('generatedFiles/fourElementMiddleState.txt', 'a')
         file.write(tmp)
     finally:
         file.close()
@@ -91,7 +91,7 @@ def gen(op, arg1, arg2, result):  # 把四元式写入文件
 
 def initfile():  # 清空四元式输出文件
     try:
-        file = open('four.txt', 'r+')
+        file = open('generatedFiles/fourElementMiddleState.txt', 'r+')
         file.truncate()
     finally:
         file.close()

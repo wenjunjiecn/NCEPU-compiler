@@ -6,25 +6,25 @@ startSign = '程序'
 
 
 def readM():  # 导入预测分析表
-    file = open('M.txt', 'rb')
+    file = open('generatedFiles/M.nonread', 'rb')
     global M
     M = pickle.load(file)
     file.close()
 
 
-def readFF():  # 导入first集和follow集
-    file = open('first.txt', 'rb')
+def readFirstAndFollow():  # 导入first集和follow集
+    file = open('generatedFiles/first.nonread', 'rb')
     global first
     first = pickle.load(file)
     file.close()
-    file = open('follow.txt', 'rb')
+    file = open('generatedFiles/follow.nonread', 'rb')
     global follow
     follow = pickle.load(file)
     file.close()
 
 
 def readinstr():
-    file = open('output.txt', 'r', encoding='utf-8')
+    file = open('generatedFiles/tokens.txt', 'r', encoding='utf-8')
 
     while True:
         text_line = file.readline()
@@ -74,6 +74,6 @@ def forecast():
 
 if __name__ == '__main__':
     readM()
-    readFF()
+    readFirstAndFollow()
     readinstr()
     print(forecast())

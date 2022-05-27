@@ -10,10 +10,10 @@ words = {'begin': 1, 'end': 2, 'integer': 3, 'char': 4, 'bool': 5, 'real': 6, 'i
 
 def init():  # 预处理
     try:
-        output = open('output.txt', "r+")
+        output = open('generatedFiles/tokens.txt', "r+")
         output.truncate()
-        file = open('program.txt', 'r')
-        tmp = open('tmp.txt', 'w')
+        file = open('generatedFiles/program.txt', 'r')
+        tmp = open('generatedFiles/middleState.txt', 'w')
         tag = 0
         while True:
             text_line = file.readline()
@@ -65,9 +65,9 @@ def init():  # 预处理
         output.close()
 
 
-def addtofile(w):    #输出到文件
+def addToFile(w):  # 二元式输出到文件
     try:
-        file = open('output.txt', 'a')
+        file = open('generatedFiles/tokens.txt', 'a')
         if w in words.keys():
             output = '({value},"{key}")\r'.format(key=w, value=words[w])
             file.write(output)
@@ -91,9 +91,9 @@ def addtofile(w):    #输出到文件
         file.close()
 
 
-def RecogId():    #识别单词类型
+def recognizeWordType():  # 识别单词类型
     try:
-        file = open('tmp.txt', 'r')
+        file = open('generatedFiles/middleState.txt', 'r')
         text = file.readline()
         text_len = len(text)
         pointer = -1
@@ -110,7 +110,7 @@ def RecogId():    #识别单词类型
                     else:
                         break
                 pointer -= 1
-                addtofile(str)
+                addToFile(str)
 
             elif text[pointer].isdigit():
                 str = str + text[pointer]
@@ -122,7 +122,7 @@ def RecogId():    #识别单词类型
                     else:
                         break
                 pointer -= 1
-                addtofile(str)
+                addToFile(str)
 
             elif text[pointer] == '<':
                 str = str + text[pointer]
@@ -133,7 +133,7 @@ def RecogId():    #识别单词类型
                     str = str + text[pointer]
                 else:
                     pointer -= 1
-                addtofile(str)
+                addToFile(str)
             elif text[pointer] == '>':
                 str = str + text[pointer]
                 pointer += 1
@@ -141,7 +141,7 @@ def RecogId():    #识别单词类型
                     str = str + text[pointer]
                 else:
                     pointer -= 1
-                addtofile(str)
+                addToFile(str)
             elif text[pointer] == ':':
                 str = str + text[pointer]
                 pointer += 1
@@ -149,7 +149,7 @@ def RecogId():    #识别单词类型
                     str = str + text[pointer]
                 else:
                     pointer -= 1
-                addtofile(str)
+                addToFile(str)
             elif text[pointer] == '+' or text[pointer] == '-':
                 str = str + text[pointer]
                 pointer += 1
@@ -164,12 +164,12 @@ def RecogId():    #识别单词类型
                         else:
                             break
                     pointer -= 1
-                    addtofile(str)
+                    addToFile(str)
                 else:
                     pointer -= 1
-                    addtofile(str)
+                    addToFile(str)
             else:
-                addtofile(text[pointer])
+                addToFile(text[pointer])
 
 
     finally:
@@ -178,4 +178,4 @@ def RecogId():    #识别单词类型
 
 if __name__ == '__main__':
     init()
-    RecogId()
+    recognizeWordType()
